@@ -36,4 +36,5 @@ Due to copyright restrictions, we do not provide a direct download link for the 
 
 For the DCI, IIW, and ShareGPT4V datasets used in long-text-to-image retrieval evaluation, please refer to: [LoTLIP: EVAL_DATASETS.md](https://github.com/wuw2019/LoTLIP/blob/main/EVAL_DATASETS.md#data-preparation-for-long-text-image-retrieval)
 
-The Urban1K dataset can be accessed directly from Hugging Face: [Urban1K on Hugging Face](https://huggingface.co/datasets/BeichenZhang/Urban1k)
+The Urban1k dataset can be accessed directly from Hugging Face: [Urban1k on Hugging Face](https://huggingface.co/datasets/BeichenZhang/Urban1k)
+
