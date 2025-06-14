@@ -109,6 +109,8 @@ You can download them directly and place them in the appropriate directories as 
 
 ## Evaluation Results
 
+> The retrieval results are presented in the format of **(R@1 | R@5 | R@10)**.
+
 | COCO(SigLIP)     | COCO(EVA-CLIP)   | Flickr30K(SigLIP) | Flickr30K(EVA-CLIP) |
 | ---------------- | ---------------- | ----------------- | ------------------- |
 | 57.1｜80.3｜86.9 | 59.4｜81.2｜87.5 | 85.1｜97.1｜98.6  | 86.2｜97.3｜98.6    |
