@@ -105,7 +105,7 @@ All intermediate files required for this project are available at the following 
 
 👉 [https://huggingface.co/datasets/XLearning-SCU/VISA](https://huggingface.co/datasets/XLearning-SCU/VISA)
 
-You can download them directly and place them in the appropriate directories as needed.
+You can download them directly and place them in the appropriate `data` directory.
 
 ## Evaluation Results
 
