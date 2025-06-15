@@ -1,0 +1,25 @@
+type: "image"
+dataset: "DCI"
+base_model: "LoTLIP"
+processed_file_path: "DCI"
+
+query: "DCI_query.json"
+question: "DCI_question.json"
+question_error: "DCI_question_error.json"
+recap: "DCI_recap.json"
+pre_answer_index: "pre_answer_index.json"
+Qwen2VL_answer: "Qwen2VL_answer.json"
+sim_base: "sim_DCI.txt"
+sim_text: "sim_text.txt"
+
+Qwen2VL_cnt_parts: 1
+Qwen2VL_current_part: 0
+Qwen2VL_current_gpu: 0
+Qwen2VL_model_path: "Qwen/Qwen2-VL-7B-Instruct"
+Qwen2VL_batch_size: 1
+
+gemma2_cnt_parts: 1
+gemma2_current_part: 0
+gemma2_current_gpu: 0
+gemma2_model_path: "BAAI/bge-reranker-v2.5-gemma2-lightweight"
+gemma2_batch_size: 10
