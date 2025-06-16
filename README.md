@@ -120,11 +120,17 @@ You can download them directly and place them in the appropriate `data` director
 | EVA-CLIP* + VISA | 59.4｜81.2｜87.5                                             | 86.2｜97.3｜98.6                                             |
 | $\Delta$         | <span style="color:green;">**+3.8**</span>｜<span style="color:green;">**+3.3**</span>｜<span style="color:green;">**+2.3**</span> | <span style="color:green;">**+3.1**</span>｜<span style="color:green;">**+1.5**</span>｜<span style="color:green;">**+0.7**</span> |
 
+
+
+<div style="overflow-x: auto;">
+
 |                        | MSRVTT                                                       | LSMDC                                                        | DiDeMo                                                       | MSVD                                                         |
 | ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | InternVideo2-G*        | 52.0｜74.6｜81.8                                             | 32.0｜52.4｜59.4                                             | 61.2｜82.4｜87.3                                             | 58.9｜83.0｜88.7                                             |
 | InternVideo2-G* + VISA | 54.6｜75.0｜82.9                                             | 35.0｜53.0｜61.6                                             | 63.6｜86.0｜89.7                                             | 60.1｜84.5｜89.7                                             |
 | $\Delta$               | <span style="color:green;">**+2.6**</span>｜<span style="color:green;">**+0.4**</span>｜<span style="color:green;">**+1.1**</span> | <span style="color:green;">**+3.0**</span>｜<span style="color:green;">**+0.6**</span>｜<span style="color:green;">**+2.2**</span> | <span style="color:green;">**+2.4**</span>｜<span style="color:green;">**+3.6**</span>｜<span style="color:green;">**+2.4**</span> | <span style="color:green;">**+1.2**</span>｜<span style="color:green;">**+1.5**</span>｜<span style="color:green;">**+1.0**</span> |
+
+</div>
 
 |                | DCI                                                          | IIW                                                          | Urban1k                                                      | ShareGPT4v                                                   |
 | -------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -148,3 +154,4 @@ If you find this repository helpful, please consider giving it a ⭐️ and citi
 ## Acknowledgements
 
 We would like to express our gratitude to [**SigLIP**](https://arxiv.org/abs/2303.15343), [**EVA-CLIP**](https://arxiv.org/abs/2402.04252), [**InterVideo2**](https://arxiv.org/abs/2403.15377), and [**LoTLIP**](https://arxiv.org/abs/2410.05249) for their excellent work, as well as to [**LLaVA**](https://huggingface.co/liuhaotian/llava-v1.6-34b), [**Qwen**](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct), and [**BGE**](https://huggingface.co/BAAI/bge-reranker-v2.5-gemma2-lightweight) for providing powerful foundation models.
+
