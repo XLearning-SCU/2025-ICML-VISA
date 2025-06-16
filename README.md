@@ -14,11 +14,11 @@
 
 - Natural language exhibits higher semantic density compared to visual signals.
 
-<img src="VISA.png" alt="paper" style="zoom: 50%;" />
+<img src="figures/VISA.png" alt="paper" style="zoom: 50%;" />
 
 - Proposes abstracting visual signals into natural language and aligning modalities via a question-answering mechanism, effectively resolving cross-modal inconsistencies in semantic density and granularity, and significantly improving retrieval performance.
 
-<img src="example.png" alt="paper" style="zoom: 50%;" />
+<img src="figures/example.png" alt="paper" style="zoom: 50%;" />
 
 ## Install
 
@@ -111,32 +111,7 @@ You can download them directly and place them in the appropriate `data` director
 
 > The retrieval results are presented in the format of **(R@1 | R@5 | R@10)**.  * indicates results are re-evaluated using official checkpoints from HuggingFace.
 
-|                  | COCO                                                         | Flickr30K                                                    |
-| ---------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| SigLIP*          | 54.2｜76.8｜84.2                                             | 83.0｜96.1｜98.0                                             |
-| SigLIP* + VISA   | 57.1｜80.3｜86.9                                             | 85.1｜97.1｜98.6                                             |
-| $\Delta$         | <span style="color:green;">**+2.9**</span>｜<span style="color:green;">**+3.5**</span>｜<span style="color:green;">**+2.7**</span> | <span style="color:green;">**+2.1**</span>｜<span style="color:green;">**+1.0**</span>｜<span style="color:green;">**+0.6**</span> |
-| EVA-CLIP*        | 55.6｜77.9｜85.2                                             | 83.1｜95.8｜97.9                                             |
-| EVA-CLIP* + VISA | 59.4｜81.2｜87.5                                             | 86.2｜97.3｜98.6                                             |
-| $\Delta$         | <span style="color:green;">**+3.8**</span>｜<span style="color:green;">**+3.3**</span>｜<span style="color:green;">**+2.3**</span> | <span style="color:green;">**+3.1**</span>｜<span style="color:green;">**+1.5**</span>｜<span style="color:green;">**+0.7**</span> |
-
-
-
-<div style="overflow-x: auto;">
-
-|                        | MSRVTT                                                       | LSMDC                                                        | DiDeMo                                                       | MSVD                                                         |
-| ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| InternVideo2-G*        | 52.0｜74.6｜81.8                                             | 32.0｜52.4｜59.4                                             | 61.2｜82.4｜87.3                                             | 58.9｜83.0｜88.7                                             |
-| InternVideo2-G* + VISA | 54.6｜75.0｜82.9                                             | 35.0｜53.0｜61.6                                             | 63.6｜86.0｜89.7                                             | 60.1｜84.5｜89.7                                             |
-| $\Delta$               | <span style="color:green;">**+2.6**</span>｜<span style="color:green;">**+0.4**</span>｜<span style="color:green;">**+1.1**</span> | <span style="color:green;">**+3.0**</span>｜<span style="color:green;">**+0.6**</span>｜<span style="color:green;">**+2.2**</span> | <span style="color:green;">**+2.4**</span>｜<span style="color:green;">**+3.6**</span>｜<span style="color:green;">**+2.4**</span> | <span style="color:green;">**+1.2**</span>｜<span style="color:green;">**+1.5**</span>｜<span style="color:green;">**+1.0**</span> |
-
-</div>
-
-|                | DCI                                                          | IIW                                                          | Urban1k                                                      | ShareGPT4v                                                   |
-| -------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| LoTLIP*        | 62.5｜82.9｜88.1                                             | 94.0｜99.0｜100.0                                            | 85.9｜97.1｜98.4                                             | 96.1｜99.5｜99.8                                             |
-| LoTLIP* + VISA | 75.5｜89.4｜91.6                                             | 98.2｜100.0｜100.0                                           | 94.7｜99.4｜99.8                                             | 97.8｜99.8｜99.9                                             |
-| $\Delta$       | <span style="color:green;">**+13.0**</span>｜<span style="color:green;">**+6.5**</span>｜<span style="color:green;">**+3.5**</span> | <span style="color:green;">**+4.2**</span>｜<span style="color:green;">**+1.0**</span>｜<span style="color:green;">**+0.0**</span> | <span style="color:green;">**+8.8**</span>｜<span style="color:green;">**+2.3**</span>｜<span style="color:green;">**+1.4**</span> | <span style="color:green;">**+1.7**</span>｜<span style="color:green;">**+0.3**</span>｜<span style="color:green;">**+0.1**</span> |
+<img src="figures/result.png" alt="paper" style="zoom: 50%;" />
 
 ## Bibtex
 
